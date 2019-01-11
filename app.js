@@ -1,13 +1,12 @@
 const path = require('path');
 const express = require('express');
+const logger = require('morgan');
 const createError = require('http-errors');
 const cookieParser = require('cookie-parser');
-const logger = require('morgan');
 const sassMiddleware = require('node-sass-middleware');
 
 let indexRouter = require('./routes/index');
 let usersRouter = require('./routes/users');
-
 let app = express();
 
 // view engine setup
