@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(action='/process' method='GET')
+    ul
+      li
+        input(type='text' name='first_name' placeholder='First Name')
+      li
+        input(type='text' name='last_name' placeholder='Last Name')
+      li
+        input(type='submit' value='Submit')

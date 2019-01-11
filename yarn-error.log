@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @types/express
+
+PATH: 
+  C:\Users\lilu\WebstormProjects\MySite\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ffmpeg\bin\;C:\Program Files\Youtube\;C:\Program Files (x86)\Yarn\bin\;C:\Users\lilu\AppData\Local\Microsoft\WindowsApps;C:\Users\lilu\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\lilu\AppData\Local\Microsoft\WindowsApps;C:\Users\lilu\AppData\Roaming\npm;C:\Users\lilu\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.2\bin;;C:\Program Files\JetBrains\WebStorm 2018.3.2\bin;;C:\Users\lilu\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\lilu\WebstormProjects\MySite\node_modules\node-sass\vendor\win32-x64-57\binding.node'
+
+npm manifest: 
+  {
+    "name": "mysite",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.16.0",
+      "http-errors": "~1.6.2",
+      "morgan": "~1.9.0",
+      "node-sass-middleware": "0.11.0",
+      "pug": "2.0.0-beta11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
