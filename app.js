@@ -28,14 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.get('/process', (req, res) => {
-  let response = {
-    'first_name': req.query.first_name,
-    'last_name': req.query.last_name
-  };
-  console.log(response);
-  res.end(JSON.stringify(response));
-});
+app.use('/api', require('./api'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

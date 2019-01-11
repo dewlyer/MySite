@@ -3,7 +3,7 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  form(action='/process' method='GET')
+  form(action='/api/process' method='GET')
     ul
       li
         input(type='text' name='first_name' placeholder='First Name')
